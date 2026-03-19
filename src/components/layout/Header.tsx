@@ -99,8 +99,7 @@ const Header: React.FC = () => {
       ]
     },
     {
-      label: 'Admin',
-      href: '/admin',
+
     },
   ];
 
