@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@keyframes yd-float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.yd-icon-float {
+  animation: yd-float 3s ease-in-out infinite;
+}
