@@ -101,6 +101,8 @@ export default function App() {
         </main>
         <Footer />
       </div>
+      // Route protégée
+{path: '/admin-secret-yahia', element: <ProtectedAdmin />}
     </BrowserRouter>
   );
 }
